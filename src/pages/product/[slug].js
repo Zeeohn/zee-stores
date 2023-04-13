@@ -36,6 +36,7 @@ const ProductDetails = ({ product, products }) => {
                 onMouseEnter={() => setIndex(i)}
               />
             ))}
+            {console.log(urlFor(image))}
           </div>
         </div>
         <div className="product-detail-desc">
